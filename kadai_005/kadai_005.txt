@@ -1,0 +1,30 @@
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % pwd
+/Users/fukumuramasahiro/git_challenge
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/fukumuramasahiro/git_challenge/.git/
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git add hello_w
+orld.txt
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git commit -m"f
+irst commit"
+[main (root-commit) cb5cd9c] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git add hello_w
+orld.txt
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git commit -m"s
+econd commit"
+[main d10e1c5] second commit
+ 1 file changed, 1 insertion(+)
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git log
+commit d10e1c56f296ef78e030fe598a9d1293b5e7106b (HEAD -> main)
+Author: chackey27 <f.masahirox2@gmail.com>
+Date:   Sun Jul 20 17:01:17 2025 +0900
+
+    second commit
+
+commit cb5cd9cde9261ff38eea121f26b6e38ca1f37118
+Author: chackey27 <f.masahirox2@gmail.com>
+Date:   Sun Jul 20 16:59:04 2025 +0900
+
+    first commit
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % 
