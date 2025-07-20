@@ -1,0 +1,19 @@
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % pwd
+/Users/fukumuramasahiro/git_challenge
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/fukumuramasahiro/git_challenge/.git/
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git add hello_w
+orld.txt
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git commit -m "Hello,world"
+[main 9a28451] Hello,world
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git add hello_world.txt
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git commit -m "こんにちは、世界！"
+[main 2687224] こんにちは、世界！
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % git log --oneline
+2687224 (HEAD -> main) こんにちは、世界！
+9a28451 Hello,world
+d10e1c5 second commit
+cb5cd9c first commit
+fukumuramasahiro@masahiro-MacBook-Air git_challenge % 
